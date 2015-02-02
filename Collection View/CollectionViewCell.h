@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CollectionViewCell.h
 //  Collection View
 //
 //  Created by Jay Versluis on 01/02/2015.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface CollectionViewCell : UICollectionViewCell
 
+@property (strong, nonatomic) IBOutlet UILabel *textLabel;
 
 @end
-
